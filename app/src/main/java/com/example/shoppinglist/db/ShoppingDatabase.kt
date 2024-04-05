@@ -1,9 +1,10 @@
-package com.example.shoppinglist
+package com.example.shoppinglist.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.example.shoppinglist.db.entities.ShoppingItem
 
 //Database is a file in which we link all the entities together.
 //In this class, you can use your Dao to access the database.
