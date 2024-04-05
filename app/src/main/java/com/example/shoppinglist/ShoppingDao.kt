@@ -1,4 +1,4 @@
-package com.example.shoppinglist.db
+package com.example.shoppinglist
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
@@ -6,7 +6,6 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.example.shoppinglist.db.entities.ShoppingItem
 
 //Dao stands for Data Access Object, in this file, we create an interface for the Room Database.
 //It consists of all the database operations that you will use in your application like, insert, delete, update, etc.
