@@ -44,7 +44,7 @@ class ShoppingActivity : AppCompatActivity() {
                 override fun onAddButtonClicked(item: ShoppingItem) {
                     viewModel.upsert(item)
                 }
-            }).show(
+            }).show()
         }
 
     }
